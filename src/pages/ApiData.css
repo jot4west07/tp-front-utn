@@ -1,0 +1,76 @@
+/* Estilo específico para la página de personajes */
+.api-data-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;  /* Fondo claro para diferenciarlo de la home */
+  min-height: 100vh;
+}
+
+/* Título específico de la página de personajes */
+.api-data-container h1 {
+  color: white; /* Un color más oscuro para el título */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Tabla de personajes */
+#characters-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px; /* Bordes redondeados para la tabla */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#characters-table th,
+#characters-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#characters-table th {
+  background-color: #000;
+  color: white;
+}
+
+#characters-table td {
+  background-color: #fff;
+}
+
+#characters-table img {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Estilo del botón Cargar más */
+#load-more {
+  padding: 12px 25px;
+  margin: 30px auto;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#load-more:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo de texto de carga */
+.loading-text {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Asegurarnos que no se solapen con el Footer de la Home */
+.api-data-container {
+  padding-bottom: 80px; /* Espacio suficiente para no pisar el footer */
+}
