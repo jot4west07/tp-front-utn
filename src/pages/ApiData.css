@@ -2,14 +2,14 @@
 .api-data-container {
   text-align: center;
   padding: 20px;
-  background-color: #111;  /* Fondo claro para diferenciarlo de la home */
+  background-color: #111;  
   min-height: 100vh;
 }
 
 /* Título específico de la página de personajes */
 .api-data-container h1 {
-  color: white; /* Un color más oscuro para el título */
-  font-size: 2.5rem;
+  color: white; 
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 
@@ -40,8 +40,8 @@
 }
 
 #characters-table img {
-  width: 80px;
-  height: auto;
+  width: 300px;
+  height: 250px;
   border-radius: 5px;
 }
 
