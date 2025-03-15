@@ -10,9 +10,14 @@
   padding: 10px;
   height: 10vh;
   font-size: 20px;
-  display: flex;           /* Usamos flexbox para que los elementos se alineen correctamente */
-  justify-content: space-between; /* Alinea el logo a la izquierda y los enlaces a la derecha */
-  align-items: center;     /* Asegura que los elementos se alineen verticalmente */
+  display: flex;          
+  justify-content: space-between;
+  align-items: center;   
+}
+
+.navbar h1 {
+  color: white;
+  font-size: 40px;
 }
 
 .logo-navbar img {
@@ -34,16 +39,24 @@
 
 .nav-links li {
   display: inline;
+  /* Mantener el mismo tamaño en el contenedor */
+  transition: transform 0.2s ease;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  transition: font-size 0.2s ease; 
+}
+
+.nav-links li:hover {
+  transform: scale(1.2); 
 }
 
 .nav-links a:hover {
   color: yellow;
+  font-size: 20px; 
 }
 
 /* Estilos de la Home */
@@ -53,7 +66,6 @@
   color: white;
   background-color: #111;
   min-height: 100vh;
-  
 }
 
 .home-container p {

@@ -10,7 +10,6 @@ const Home = () => {
         Aquí encontrarás información de personajes, naves y planetas del universo galáctico.
       </p>
       <div className="images-container">
-        {/* Usa la imagen importada aquí */}
         <img src={starwars1} alt="Imagen 1 de star wars" />
         <img src={starwars2} alt="Imagen 2 de star wars" />
       </div>
