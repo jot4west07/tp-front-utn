@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Contact.css'; // Importa el archivo CSS para los estilos de contacto
+import '../styles/Contact.css'; 
 
 const Contact = () => {
   // Estado para almacenar los datos del formulario
