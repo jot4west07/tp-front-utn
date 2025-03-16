@@ -70,7 +70,6 @@
   margin-top: 20px;
 }
 
-/* Asegurarnos que no se solapen con el Footer de la Home */
 .api-data-container {
   padding-bottom: 80px; /* Espacio suficiente para no pisar el footer */
 }
