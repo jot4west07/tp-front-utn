@@ -64,7 +64,7 @@
 
 /* Estilo de texto de carga */
 .loading-text {
-  color: #333;
+  color: white;
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 20px;
